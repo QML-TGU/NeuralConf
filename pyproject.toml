@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools>=64", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "neuralconf"
+version = "0.1.0"
+description = "Trace correctness estimation from token-level confidence trajectories"
+readme = "README.md"
+requires-python = ">=3.9"
+license = {text = "MIT"}
+authors = [
+  {name = "Shuo Liu"},
+  {name = "Ding Liu"},
+  {name = "Shi-Ju Ran"},
+]
+dependencies = [
+  "torch",
+  "numpy",
+  "scikit-learn",
+  "openai",
+  "regex",
+  "sympy",
+  "latex2sympy2",
+  "word2number",
+  "antlr4-python3-runtime==4.11.1",
+]
+
+[tool.setuptools.packages.find]
+include = ["neuralconf*"]

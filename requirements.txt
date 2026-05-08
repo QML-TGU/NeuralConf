@@ -1,0 +1,9 @@
+torch
+numpy
+scikit-learn
+openai
+regex
+sympy
+latex2sympy2
+word2number
+antlr4-python3-runtime==4.11.1

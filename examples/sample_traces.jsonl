@@ -1,0 +1,4 @@
+{"qid": 1, "question": "Example question", "gold_answer": "A", "pred_answer": "A", "confidences": [7.31, 8.27, 6.22, 10.19], "trace_id": 0, "is_correct": 1}
+{"qid": 1, "question": "Example question", "gold_answer": "A", "pred_answer": "B", "confidences": [9.31, 5.35, 3.42, 11.48], "trace_id": 1, "is_correct": 0}
+{"qid": 2, "question": "Another example", "gold_answer": "42", "pred_answer": "42", "confidences": [6.10, 4.09, 8.11, 9.08], "trace_id": 0, "is_correct": 1}
+{"qid": 2, "question": "Another example", "gold_answer": "42", "pred_answer": "41", "confidences": [11.38, 9.44, 6.39, 12.51], "trace_id": 1, "is_correct": 0}
